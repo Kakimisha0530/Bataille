@@ -53,13 +53,13 @@ public class Jeu
 			{
 				j1.ajouter(liste);
 				liste = new ArrayList<>();
-				System.out.println("Gagnant : Joueur 1 avec " + j1.getPoints() + " points (j2:" + j2.getPoints() + ")");
+				System.out.println("Gagnant : Joueur 1 avec " + j1.getPoints() + " points");
 			}
 			else if(c1.estPlusforte(c2) < 0)
 			{
 				j2.ajouter(liste);
 				liste = new ArrayList<>();
-				System.out.println("Gagnant : Joueur 2 avec " + j2.getPoints() + " points (j1:" + j1.getPoints() + ")");
+				System.out.println("Gagnant : Joueur 2 avec " + j2.getPoints() + " points");
 			}
 			else{
 				System.out.println("Les cartes sont egales : BATAILLE !!!!!");
